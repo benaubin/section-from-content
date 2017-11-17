@@ -1,0 +1,23 @@
+{
+  "name": "section-from-content",
+  "version": "0.1.0",
+  "dependencies": {
+    "ghost-app": "0.0.2",
+    "marked": "^0.3.6"
+  },
+  "ghost": {
+    "permissions": {
+      "helpers": [
+        "sectionFromContent"
+      ]
+    }
+  },
+  "description": "It takes some content in a post and outputs a section of it",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -7,6 +7,33 @@ update and possibly break your whole site. We'll try to keep it updated, but
 no guarantees. You probably won't be able to depend on this in a marketplace
 theme.
 
+## Usage
+
+In your ghost editor, add a section to a page or post:
+
+```html
+<!-- section: a description of the section
+
+the section's content
+
+-->
+```
+
+![example page](/test-page.png)
+
+Then, use the `sectionFromContent` helper to access the section.
+
+```hbs
+
+{{{sectionFromContent "section" html}}}
+
+```
+
+Sections are not escaped and are parsed with [`marked`][marked] for markdown.
+Markdown may work differently then normal with Ghost.
+
+[marked]: https://github.com/chjj/marked
+
 ## Installation
 
 Clone this repo into your `content/apps` directory.

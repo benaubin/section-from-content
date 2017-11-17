@@ -2,10 +2,13 @@
 
 A ghost app to let you extract sections from content in a page/post.
 
-Don't use it unless you know what you're doing. This could break on any ghost
-update and possibly break your whole site. We'll try to keep it updated, but
-no guarantees. You probably won't be able to depend on this in a marketplace
-theme.
+> ## Disclaimer
+>
+> Don't use this unless you know 100% what you're doing and have experience
+> developing with Node & Ghost. This could break on any ghost update and
+> possibly break your whole site. We'll try to keep it updated in the future,
+> but no guarantees. You probably won't be able to depend on this in a
+> marketplace theme.
 
 ## Usage
 

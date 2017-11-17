@@ -2,6 +2,9 @@
 
 A ghost app to let you extract sections from content in a page/post.
 
+I needed this for a client site so they don't have to edit the theme
+to make changes. Best paired with clever usages of the `{{get}}` helper.
+
 > ## Disclaimer
 >
 > Don't use this unless you know 100% what you're doing and have experience

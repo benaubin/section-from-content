@@ -16,10 +16,8 @@ In your ghost editor, add a section to a page or post:
 
 the section's content
 
--->
+section-->
 ```
-
-![example page](/test-page.png)
 
 Then, use the `sectionFromContent` helper to access the section.
 

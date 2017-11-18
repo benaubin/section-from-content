@@ -34,8 +34,6 @@ action = actions[action];
 
 // based on https://github.com/TryGhost/Ghost/blob/master/core/server/services/apps/index.js
 
-console.log("action:", action)
-
 // initalize ghost
 server().then(function(){
   // get the active apps

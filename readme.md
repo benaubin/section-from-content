@@ -45,7 +45,7 @@ Clone this repo into your `content/apps` directory.
 We've included a simple setup script. Run it from the root directory of your
 ghost installation.
 
-      $ node content/apps/section-from-content/setup
+     $ node content/apps/section-from-content/setup
 
 <small>To uninstall later, just edit the script to "remove" instead of install, then run.</small>
 

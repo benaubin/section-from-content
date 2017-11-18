@@ -53,9 +53,7 @@ server().then(function(){
       throw "fail";
   }
 
-  return appsToActivate;
-}).then(function(appsToActivate){
-  return api.settings.edit({settings: [{key: 'active_apps', value: appsToActivate}]}, {context: {internal: true}});
+  return api.settings.edit({settings: [{key: 'active_apps', value: newActiveApps}]}, {context: {internal: true}});
 }).then(function(data){
   console.log("Success.", action.successMsg);
 }).finally(function(){

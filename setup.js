@@ -5,6 +5,8 @@ var action = "install";
 
 // don't change the following
 
+process.env.GSCAN_ALLOW_HELPERS="sectionFromContent";
+
 var _ = require('lodash');
 var Promise = require('bluebird');
 

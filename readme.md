@@ -42,11 +42,10 @@ Markdown may work differently then normal with Ghost.
 
 Clone this repo into your `content/apps` directory.
 
-We've included a simple setup script. Run it.
+We've included a simple setup script. Run it from the root directory of your
+ghost installation.
 
-```node
-node setup.js
-```
+      $ node content/apps/section-from-content/setup
 
 <small>To uninstall later, just edit the script to "remove" instead of install, then run.</small>
 

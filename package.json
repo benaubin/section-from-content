@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "escape-string-regexp": "^1.0.5",
     "ghost-app": "0.0.2",
     "lodash": "^4.17.4",
     "marked": "^0.3.6"

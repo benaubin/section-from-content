@@ -40,7 +40,7 @@ Markdown may work differently then normal with Ghost.
 
 ## Installation
 
-Clone this repo into your `content/apps` directory.
+Clone this repo into your `content/apps` directory & run `npm install`.
 
 We've included a simple setup script. Run it from the root directory of your
 ghost installation.

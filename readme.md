@@ -69,11 +69,23 @@ knownHelpers = [
 ].concat((process.env.GSCAN_ALLOW_HELPERS || '').split(','));
 ```
 
-Then, run ghost with an env variable allowing the helper.
+Then, run Ghost with an env variable allowing the helper. In development, it should be as easy as:
 
     $ GSCAN_ALLOW_HELPERS=sectionFromContent ghost restart
 
 You can now activate a theme that requires this app. Make sure to run this
 command every time you need to activate a theme that requires this app.
+
+In production, edit your systemd service file to include the enviromental variable.
+
+    $ nano system/files/ghost_*.service
+    
+Then add a line specifing the enviromental variable
+
+    Environment="GSCAN_ALLOW_HELPERS=sectionFromContent"
+
+After this line:
+
+    Environment="NODE_ENV=production"
 
 [env-pr]: https://github.com/TryGhost/gscan/pull/91
